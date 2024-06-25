@@ -1,5 +1,5 @@
 {
-	"name": "ecstasy-components",
+	"name": "@sujithjr/ecstasy-components",
 	"version": "0.0.1",
 	"description": "Unstyled UI components",
 	"private": true,
@@ -12,7 +12,9 @@
 		"type": "git",
 		"url": "git+https://github.com/SujithJr/ecstasy-components.git"
 	},
-	"bugs": "https://github.com/SujithJr/ecstasy-components/issues",
+	"bugs": {
+		"url": "https://github.com/SujithJr/ecstasy-components/issues"
+	},
 	"author": "Sujith kumar <hi@iamsujith.in>",
 	"main": "./dist/index.umd.js",
 	"module": "./dist/index.es.js",
@@ -57,5 +59,12 @@
 		"vite": "^5.1.6",
 		"vite-plugin-dts": "^3.7.3",
 		"vue-tsc": "^2.0.6"
-	}
+	},
+	"keywords": [
+		"vue 3",
+		"headless components",
+		"unstyled components",
+		"vue components"
+	],
+	"license": "MIT"
 }
