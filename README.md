@@ -1,39 +1,36 @@
-# ex-components
+# Ecstasy Components (ex-components)
 
-This template should help get you started developing with Vue 3 in Vite.
+Set of headless UI components using Vue 3 and Typescript.
 
-## Recommended IDE Setup
+I developed this for my own learning and usage inspired by Tailwind team's Headless UI. PR's and new feature suggestions are always welcome, but
+I'll be providing updates only based on my schedule and availability.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Install the package
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```bun
+bun add ecstasy-components
 ```
 
-### Compile and Hot-Reload for Development
+You can either import the components individually (tree shakable) or register it globally in `main.ts` or `main.js`,
+```js
+import EcstasyComponents from 'ecstasy-components'
 
-```sh
-npm run dev
+const app = createApp(App)
+
+app.use(EcstasyComponents)
 ```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
+To view the playground, clone the repo and install dependencies using,
+```bash
+bun install
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+Start the development server, and visit http://localhost:5173/ in the browser
+```bash
+bun dev
+```
 
-```sh
-npm run lint
+Build for production,
+```bash
+bun run build
 ```
