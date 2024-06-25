@@ -1,0 +1,33 @@
+/* [role='option']:focus {
+	outline: 5px solid red;
+} */
+
+.router-link-active,
+.router-link-exact-active {
+	color: #008080 !important;
+}
+
+/* [data-ex-tooltip-portal] { */
+[data-ex-visiblity-state] {
+	/* animation: show 0.25s ease-in-out; */
+	/* transform: translate(none) scale(1); */
+}
+
+@keyframes show {
+	0% {
+		/* opacity: 0; */
+		/* transform: translate(none) scale(0.95); */
+		transform: scale(0.9);
+		opacity: 0;
+	}
+	/* 5% { */
+	/* opacity: 0; */
+	/* transform: translate(-1px, -1px) scale(0.95); */
+	/* } */
+	100% {
+		opacity: 1;
+		/* transform: translate(none) scale(1); */
+		transform: scale(1);
+		transition: 100ms ease-out-in;
+	}
+}
