@@ -40,8 +40,9 @@ export default defineConfig({
         lib: {
             entry: resolve(__dirname, 'src/index.ts'),
             name: 'EcstasyUI',
-            formats: ['es', 'cjs'],
-            fileName: format => `index${format === 'es' ? '.js' : '.cjs'}`,
+            formats: ['es', 'cjs', 'umd'],
+            // fileName: format => `index${format === 'es' ? '.js' : '.cjs'}`,
+            fileName: format => `index.${format === 'cjs' ? 'cjs' : format + '.js'}`,
         },
         rollupOptions: {
             input: {

@@ -17,8 +17,6 @@ declare module 'vue' {
     export interface GlobalComponents {
         ExAvatar: typeof components.ExAvatar
         ExCard: typeof components.ExCard
-        ExImage: typeof components.ExImage
-        ExSwitch: typeof components.ExSwitch
         ExDrawer: typeof components.ExDrawer
         ExDrawerContent: typeof components.ExDrawerContent
         ExDrawerClose: typeof components.ExDrawerClose
