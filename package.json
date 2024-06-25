@@ -1,8 +1,7 @@
 {
 	"name": "@sujithjr/ecstasy-components",
 	"version": "0.0.1",
-	"description": "Unstyled UI components",
-	"private": true,
+	"description": "Unstyled UI components for Vue 3",
 	"type": "module",
 	"files": [
 		"dist"
