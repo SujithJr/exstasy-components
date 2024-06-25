@@ -2,8 +2,9 @@
 
 Set of headless UI components using Vue 3 and Typescript.
 
-I developed this for my own learning and usage inspired by Tailwind team's Headless UI. PR's and new feature suggestions are always welcome, but
-I'll be providing updates only based on my schedule and availability.
+> [!NOTE]
+> I developed this for my own learning and usage inspired by Tailwind team's Headless UI. PR's and new feature suggestions are always welcome, but
+> I'll be providing updates only based on my schedule and availability.
 
 Install the package
 
