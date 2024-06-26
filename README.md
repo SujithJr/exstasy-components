@@ -1,4 +1,4 @@
-# Ecstasy Components (ex-components)
+# Exstasy Components (ex-components)
 
 Set of headless UI components using Vue 3 and Typescript.
 
@@ -9,16 +9,16 @@ Set of headless UI components using Vue 3 and Typescript.
 Install the package
 
 ```bun
-bun add ecstasy-components
+bun add exstasy-components
 ```
 
 You can either import the components individually (tree shakable) or register it globally in `main.ts` or `main.js`,
 ```js
-import EcstasyComponents from 'ecstasy-components'
+import ExstasyComponents from 'exstasy-components'
 
 const app = createApp(App)
 
-app.use(EcstasyComponents)
+app.use(ExstasyComponents)
 ```
 
 To view the playground, clone the repo and install dependencies using,

@@ -39,7 +39,7 @@ export default defineConfig({
         sourcemap: true,
         lib: {
             entry: resolve(__dirname, 'src/index.ts'),
-            name: 'EcstasyUI',
+            name: 'ExstasyUI',
             formats: ['es', 'cjs'],
             // fileName: format => `index${format === 'es' ? '.js' : '.cjs'}`,
             fileName: format => `index.${format === 'cjs' ? 'cjs' : format + '.js'}`,
@@ -54,7 +54,7 @@ export default defineConfig({
             ],
             output: {
                 exports: 'named',
-                banner: '/*! Ecstasy UI by Sujith Kumar https://github.com/SujithJr */',
+                banner: '/*! Exstasy UI by Sujith Kumar https://github.com/SujithJr */',
                 globals: {
                     vue: 'Vue',
                 },

@@ -1,18 +1,18 @@
 {
 	"name": "@sujithjr/exstasy-components",
-	"version": "0.0.5",
+	"version": "0.0.1",
 	"description": "Unstyled UI components for Vue 3",
 	"type": "module",
 	"files": [
 		"dist"
 	],
-	"homepage": "https://github.com/SujithJr/ecstasy-components/blob/main/README.md",
+	"homepage": "https://github.com/SujithJr/exstasy-components/blob/main/README.md",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/SujithJr/ecstasy-components.git"
+		"url": "git+https://github.com/SujithJr/exstasy-components.git"
 	},
 	"bugs": {
-		"url": "https://github.com/SujithJr/ecstasy-components/issues"
+		"url": "https://github.com/SujithJr/exstasy-components/issues"
 	},
 	"author": "Sujith kumar <hi@iamsujith.in>",
 	"main": "./dist/index.umd.js",
