@@ -27,7 +27,7 @@ const app = createApp(App)
 app.use(ExstasyComponents)
 ```
 
-To view the playground, clone the repo and install dependencies using,
+For contribution, clone the repo and install dependencies using,
 ```sh
 bun install
 ```
