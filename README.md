@@ -7,9 +7,14 @@ For full documentation, visit [exstasy-ui.iamsujith.in](https://exstasy-ui.iamsu
 > [!NOTE]
 > I developed this for my own learning and usage inspired by Tailwind team's Headless UI. PR's and new feature suggestions are always welcome.
 
-Install the package
+Install the package using npm,
+```sh
+npm install @sujithjr/exstasy-components
+```
 
-```bun
+Or install using Bun.js,
+
+```sh
 bun add @sujithjr/exstasy-components
 ```
 
@@ -23,16 +28,16 @@ app.use(ExstasyComponents)
 ```
 
 To view the playground, clone the repo and install dependencies using,
-```bash
+```sh
 bun install
 ```
 
 Start the development server, and visit http://localhost:5173/ in the browser
-```bash
+```sh
 bun dev
 ```
 
 Build for production,
-```bash
+```sh
 bun run build
 ```
