@@ -1,6 +1,6 @@
 {
 	"name": "@sujithjr/exstasy-components",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Unstyled UI components for Vue 3",
 	"type": "module",
 	"files": [
@@ -14,7 +14,7 @@
 	"bugs": {
 		"url": "https://github.com/SujithJr/exstasy-components/issues"
 	},
-	"author": "Sujith kumar <hi@iamsujith.in>",
+	"author": "Sujith kumar <sujithsrt10@gmail.com>",
 	"main": "./dist/index.umd.js",
 	"module": "./dist/index.es.js",
 	"types": "./dist/index.d.ts",
