@@ -14,6 +14,10 @@
 	"bugs": {
 		"url": "https://github.com/SujithJr/exstasy-components/issues"
 	},
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/",
+		"access": "public"
+	},
 	"author": "Sujith kumar <sujithsrt10@gmail.com>",
 	"main": "./dist/index.umd.js",
 	"module": "./dist/index.es.js",
@@ -22,7 +26,7 @@
 		".": {
 			"import": "./dist/index.es.js",
 			"require": "./dist/index.umd.js",
-            "types": "./dist/index.d.ts"
+			"types": "./dist/index.d.ts"
 		}
 	},
 	"scripts": {
