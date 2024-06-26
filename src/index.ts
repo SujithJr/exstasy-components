@@ -13,6 +13,7 @@ export default { install }
 
 export * from './components'
 
+// AUTOMATE TYPE DECLARATION
 declare module 'vue' {
     export interface GlobalComponents {
         ExAvatar: typeof components.ExAvatar
@@ -38,9 +39,3 @@ declare module 'vue' {
         ExAutocompleteListItem: typeof components.ExAutocompleteListItem
     }
 }
-
-// export * from './components/ExDropdown/definition'
-// export * from './components/ExAutocomplete/definition'
-// export * from './components/ExTooltip/definition'
-
-// export * from './utils/injection-keys'
