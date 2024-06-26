@@ -40,7 +40,7 @@ export default defineConfig({
         lib: {
             entry: resolve(__dirname, 'src/index.ts'),
             name: 'ExstasyUI',
-            formats: ['es', 'cjs'],
+            formats: ['es', 'cjs', 'umd'],
             // fileName: format => `index${format === 'es' ? '.js' : '.cjs'}`,
             fileName: format => `index.${format === 'cjs' ? 'cjs' : format + '.js'}`,
         },
