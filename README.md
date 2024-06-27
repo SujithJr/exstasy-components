@@ -2,7 +2,7 @@
 
 Set of headless UI components using Vue 3 and Typescript.
 
-For full documentation, visit [exstasy-ui.iamsujith.in](https://exstasy-ui.iamsujith.in/)
+For full documentation, visit [xui.iamsujith.in](https://xui.iamsujith.in/)
 
 > [!NOTE]
 > I developed this for my own learning and usage inspired by Tailwind team's Headless UI. PR's and new feature suggestions are always welcome.
